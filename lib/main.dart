@@ -46,6 +46,7 @@ class myApp extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
+                /*
                 Container(
                     height: 50,
                     width: 1600,
@@ -71,9 +72,39 @@ class myApp extends StatelessWidget {
                         ),
                       ],
                     )),
+                    */
+
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+                  child: Padding(
+                      padding: EdgeInsets.all(14),
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Icon(
+                            color: Colors.purple,
+                            Icons.phone,
+                          ),
+                          SizedBox(
+                            width: 30,
+                          ),
+                          Text(
+                            "+98 922 505 81690",
+                            style: TextStyle(
+                                color: Colors.purple,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20),
+                          ),
+                        ],
+                      )),
+                ),
                 SizedBox(
                   height: 10,
                 ),
+                /*
                 Container(
                     height: 50,
                     width: 1600,
@@ -99,9 +130,39 @@ class myApp extends StatelessWidget {
                         ),
                       ],
                     )),
+                    */
+
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+                  child: Padding(
+                      padding: EdgeInsets.all(14),
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Icon(
+                            color: Colors.purple,
+                            Icons.email,
+                          ),
+                          SizedBox(
+                            width: 30,
+                          ),
+                          Text(
+                            "+m.a.belkouri@gmail.com",
+                            style: TextStyle(
+                                color: Colors.purple,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20),
+                          ),
+                        ],
+                      )),
+                ),
                 SizedBox(
                   height: 10,
                 ),
+                /*
                 Container(
                     height: 50,
                     width: 1600,
@@ -127,6 +188,36 @@ class myApp extends StatelessWidget {
                         ),
                       ],
                     )),
+                    */
+
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+                  child: Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Row(
+                      children: [
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Icon(
+                          color: Colors.purple,
+                          Icons.person,
+                        ),
+                        SizedBox(
+                          width: 30,
+                        ),
+                        Text(
+                          "@dalyVolg",
+                          style: TextStyle(
+                              color: Colors.purple,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
               ],
             )));
   }
